@@ -1,0 +1,86 @@
+PROJECT aCRD
+
+alpha version
+
+## 1.0.3 – 2019-01-28
+### Added
+-	LAMMPS style dumping procedure [System Module] to visualize data.
+### Fixed
+-	Several running errors in event loop [Event Module].
+
+## 1.0.2 – 2019-01-27
+### Added
+-	Multiple dumping procedures [System Module] to collect related data.
+### Fixed
+-	Several running errors in event loop [Event Module].
+-	Several running errors in main stage control [System Module].
+
+## 1.0.1 – 2019-01-27
+### Fixed
+-	A minor error on time sampling function in major diffusion solver [Solver Module].
+
+## 1.0.0 – 2019-01-26
+### Added
+-	Dissociation solver module [Solver Module].
+### Fixed
+-	Several running errors in event loop [Event Module].
+
+## 0.5.1 – 2019-01-26
+### Added
+-	A demonstration event series on dissociation event series [Event Module]. 
+### Fixed
+-	Several running errors in event loop [Event Module].
+
+## 0.4.2 – 2019-01-26
+### Fixed
+-	A critical error on time sampling function in major diffusion solver [Solver Module]. 
+
+## 0.4.1 – 2019-01-25
+### Added
+-	New walker event series [Event Module] to simulate the irradiation scenario.
+
+## 0.3.1 – 2019-01-24
+### Added
+-	3D coalescence event series [Event Module].
+-	Local reaction solver module [Solver Module].
+### Changed
+-	Boundary setting [System Module] to perform an absorbing boundary.
+### Fixed
+-	A critical error on EVENT_POINTER [System Module].
+-	Several running errors in event loop [Event Module].
+
+## 0.2.1 – 2019-01-23
+### Added
+-	3D diffusion and annihilation event series [Event Module].
+### Changed
+-	Boundary setting [System Module] to perform an absorbing boundary.
+-	Library for diffusivities [Library Module] to describe larger number of species.
+### Fixed
+-	Several running errors in event loop [Event Module].
+
+## 0.1.1 – 2019-01-15
+### Added
+-	ASMS procedure [System Module].
+### Changed
+-	General parameter setting [System Module] to arrange 3D information storage.
+-	Green’s function solver module [Solver Module] to run sampling with better logic with rejections.
+### Fixed
+-	Several running errors in event loop and tool functions [Event Module].
+
+## 0.1.0 – 2018-11-11
+### Added
+-	Green’s function solver module [Solver Module].
+-	Tool functions to handle math calculation in aCRD [System Module].
+-	1D diffusion and annihilation event series [Event Module].
+### Changed
+-	General parameter setting [System Module] to storage walker information in better style.
+### Fixed
+-	Several running errors in main stage control loop [System Module].
+
+## 0.0.1 – 2018-09-21
+### Added
+-	This change log file to serve as a reference to future developers on PROJECT aCRD.
+-	Main stage control loop [System Module].
+-	General parameters setting [System Module].
+-	Global event queue [System Module].
+-	Library for diffusivities [Library Module].
